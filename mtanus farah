@@ -1,0 +1,19 @@
+package programmering2;
+
+import java.util.Scanner;
+
+public class rep {
+public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	int tal;
+	int sum = 0;
+	while (true) {
+		tal = input.nextInt();
+		sum = tal + sum;
+		if (tal == 0) {
+			break;
+		}
+	}
+	System.out.println(sum);
+}
+}

@@ -1,0 +1,12 @@
+package programmering2;
+
+import java.util.Scanner;
+
+public class rep {
+
+
+	public static <E> E[] togenericarray(E[]e) {
+		return e;
+	}
+}
+
